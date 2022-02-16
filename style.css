@@ -1,3 +1,22 @@
 body {
-    font-family: 'Redressed', cursive;
+    font-family: 'Redressed', 'cursive';
+}
+h1 {
+    font-size: 700;
+}
+h3{
+    font-size: 500;
+}
+#heading-color {
+    color: tomato;
+    font-size: 700;
+}
+
+.section-arrange {
+    float: left;
+}
+.half-div {
+    width: 40%;
+    padding: 2%;
+    box-shadow: 3px 3px gray;
 }
