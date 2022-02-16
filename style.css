@@ -2,30 +2,63 @@ body {
     font-family: 'Redressed', 'cursive';
     margin: 0;
 }
+
 h1 {
     font-size: 700;
+    padding-left: 25px;
 }
 h3{
     font-size: 500;
+    padding-left: 25px;
+}
+h2 {
+    font-size: 600;
 }
 .heading-color {
     color: tomato;
     font-size: 700;
+}
+.heading-color2{
+    color: rgb(175, 52, 223);
+    font-size: 1.1em;
 }
 
 .section-arrange {
     display: flex;
     float: left;
 }
+#bg-sec0 {
+    background-image: url(image//background0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+#bg-sec1 {
+    background-image: url(image//background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+#bg-sec2 {
+    background-image: url(image//background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+#bg-sec3 {
+    background-image: url(image//background3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
 .half-div {
     width: 40%;
-    margin: 6px;
-    padding: 3%;
-    box-shadow: 3px 5px rgb(125, 160, 160), 5px 8px rgb(188, 202, 202);
+    margin: 2%;
+    padding-left: 3%;
 }
 .div-img {
     width: 100%;
-    position: center;
 }
 
 .botton-style {
@@ -35,7 +68,29 @@ h3{
     color: White;
     border: none;
     text-align: center;
-    padding: 20px;
+    padding: 10px 20px;
     cursor: pointer;
     margin: 5px;
+}
+.no-decoration{
+    text-decoration: none;
+}
+
+.last-div1{
+    border-left: 10px solid;
+    border-image: linear-gradient(45deg, orange, tomato);
+    border-image-slice: 1;
+}
+.last-div2 {
+    border-left: 10px solid;
+    border-image: linear-gradient(45deg, lightblue, cyan);
+    border-image-slice: 1;
+}
+
+.div-shadow {
+    box-shadow: 10px 15px 30px gray;
+}
+.footer {
+    text-align: center;
+    font-size: 0.8em;
 }
