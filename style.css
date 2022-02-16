@@ -21,8 +21,21 @@ h3{
     width: 40%;
     margin: 6px;
     padding: 3%;
-    box-shadow: 5px 10px rgba(0, 9, 9, 0.2), 10px 18px rgba(0, 9, 9, 0.18);
+    box-shadow: 3px 5px rgb(125, 160, 160), 5px 8px rgb(188, 202, 202);
 }
 .div-img {
     width: 100%;
+    position: center;
+}
+
+.botton-style {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: tomato;
+    color: White;
+    border: none;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    margin: 5px;
 }
