@@ -1,5 +1,6 @@
 body {
     font-family: 'Redressed', 'cursive';
+    margin: 0;
 }
 h1 {
     font-size: 700;
@@ -13,12 +14,14 @@ h3{
 }
 
 .section-arrange {
+    display: flex;
     float: left;
 }
 .half-div {
     width: 40%;
-    padding: 2%;
-    box-shadow: 3px 3px gray;
+    margin: 6px;
+    padding: 3%;
+    box-shadow: 5px 10px rgba(0, 9, 9, 0.2), 10px 18px rgba(0, 9, 9, 0.18);
 }
 .div-img {
     width: 100%;
