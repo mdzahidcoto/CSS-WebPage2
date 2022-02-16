@@ -7,7 +7,7 @@ h1 {
 h3{
     font-size: 500;
 }
-#heading-color {
+.heading-color {
     color: tomato;
     font-size: 700;
 }
